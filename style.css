@@ -44,7 +44,7 @@ body {
 
 ul {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 li,
@@ -89,8 +89,8 @@ input[type="text"] {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
@@ -152,7 +152,8 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */
